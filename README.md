@@ -44,9 +44,9 @@ Explore the complete collection of articles in the [Blog](https://theinformative
 
 Connect with me to share your thoughts, feedback, and ideas. I'm excited to engage in meaningful discussions with my readers.
 
-- Email: [bhavyaaes@gmail.com](bhavyaaes@gmail.com@example.com)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your-linkedin-profile/)
-- Twitter: [@your-twitter-handle](https://twitter.com/your-twitter-handle)
+- Email: [bhavyaaes@gmail.com](mailto:bhavyaaes@gmail.com)
+- LinkedIn: [Bhavya C. Patel](https://www.linkedin.com/in/bhavya-patel-b2820322a/)
+- Twitter: [Bhavya C. Patel](https://twitter.com/PatelBhavyaaes)
 
 ## License
 
