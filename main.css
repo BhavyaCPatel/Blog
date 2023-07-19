@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300;1,400&display=swap');
+body{
+    background-color: #dbd3c2 !important;
+    color: #30414b !important;
+    font-family: 'Nunito Sans', sans-serif!important;
+}
+.header{
+    font-family: 'Playfair Display';
+}
+.navbar input{
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+}
+.navbar input:hover{
+    border-bottom: 1px solid black;
+}
+.nav-item{
+    margin: 0 4.5em;
+}
+.about{
+    margin-top: 7em;
+}
+.col-8 h6{
+    margin-top: 7em;
+    margin-bottom: 0;
+    text-indent: 8px;
+}
+.col-8 h1{
+    font-size: 5em;
+}
+.featured .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featured .card{
+    border-radius: 10px;
+}
+.topics button{
+    width: 10em;
+    background-color: transparent;
+    height: 3em;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 0.6em;
+    margin: 0;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.topics button img{
+    border-radius: 50%;
+}
+.topics button:hover, button:focus{
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.50em);
+    background-color: #B9B49E;
+    text-decoration: underline;
+}
+.posts .col-7{
+    border: 2px solid #30414b;
+    border-right: 0;
+}
+.posts .col-5{
+    border: 2px solid #30414b;
+}
+.container {
+    position: relative;
+    width: 50%;
+}
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 30em;
+    transition: .7s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .7s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+}
+.posts .container:hover .image {
+    opacity: 0.4;
+}
+.posts .container:hover .middle {
+    opacity: 1;
+}
+.text {
+    color: white;
+    font-size: 18px;
+}
+.follow .col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social
+{
+    margin: 10px;
+    margin-left: 20%;    
+}
+.social a{
+    color: #72858C;
+    padding: 10px;
+}
+.social i{
+    font-size: 30px;
+    padding: 2px;
+}
+.social a:hover{
+    color: #30414b;
+}
+.footer input{
+    border: 0;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    background-color: transparent;
+}
