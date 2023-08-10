@@ -5,6 +5,9 @@ body{
     color: #30414b !important;
     font-family: 'Nunito Sans', sans-serif!important;
 }
+.img:hover{
+    content: url("Assets/Mygif2.gif");
+}
 .header{
     font-family: 'Playfair Display';
 }
